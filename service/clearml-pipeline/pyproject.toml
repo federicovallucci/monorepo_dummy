@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clearml-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["fedevallucci <federico.vallucci@novisto.com>"]
+readme = "README.md"
+packages = [{include = "clearml_pipeline", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+clearml = "^1.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
